@@ -19,3 +19,5 @@ const countLetters = function(string) {
   }
   return objCounter;
 };
+
+module.exports = countLetters;
