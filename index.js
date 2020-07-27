@@ -30,7 +30,6 @@ module.exports = {
   findKeyByValue,
   letterPositions,
   map,
-  reverse,
   takeUntil,
   without,
 };
