@@ -1,7 +1,8 @@
 // FUNCTION IMPLEMENTATION
 const tail = function(arr) {
   let newArr = arr;
-  return newArr.slice(0);
+  newArr.splice(0,1);
+  return newArr;
 };
 
 module.exports = tail;
