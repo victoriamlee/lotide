@@ -45,3 +45,5 @@ assertArraysEqual(results1, [ 'g', 'c', 't', 'm', 't' ]);
 assertArraysEqual(results2, [ false, false, true, false, true ]);
 assertArraysEqual(results3,[ true, true, false, true, true ]);
 assertArraysEqual(results4,[ 'r', 'o', 'o', 'a', 'o' ]);
+
+module.exports = map;
