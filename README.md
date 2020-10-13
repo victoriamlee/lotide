@@ -39,6 +39,7 @@ The following functions are currently implemented:
 * `eqObjects(object1, object2)`: Takes in two objects and returns true or false, based on a perfect match
 * `findKey(object, callback)`: Scans the object and returns the first key for which the callback returns a truthy value (if not key is found, then it should return undefined)
 * `findKeyByValue(object, value)`: Scan the object and return the first key which contains the given value (if no key with that given value is found, it returns undefined)
+* `flatten(arr)`: Takes in an array containing elements including nested arrays of elements, and return a "flattened" version of the array
 * `letterPositions(string)`: Return all the indices (zero-based positions) in the string where each character is found
 * `map(array, callback)`: Return a new array based on the results of the callback function
 * `takeUntil(array, callback)`: Returns a "slice of the array with elements taken from the beginning", it will keep going back until the callback returns a truthy value
